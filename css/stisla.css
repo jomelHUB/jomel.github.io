@@ -89,6 +89,10 @@ html, body {
 	margin-bottom: 30px;
 }
 
+#facebook:hover{
+transition: .5s;
+	opacity: 0.6;
+}
 .article-read .article-back .btn {
 	border-color: #999;
 	color: #999;
