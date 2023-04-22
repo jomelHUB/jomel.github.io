@@ -93,6 +93,14 @@ html, body {
 transition: .5s;
 	opacity: 0.6;
 }
+#youzhang{
+	width: 250px;
+
+}
+#youzhang:hover{
+	transition: .5s;
+		opacity: 0.6;
+	}
 .article-read .article-back .btn {
 	border-color: #999;
 	color: #999;
