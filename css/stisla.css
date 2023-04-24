@@ -153,6 +153,94 @@ transition: .5s;
 .article-read .article-picture img {
 	width: 100%;
 }
+#text1 {
+	margin-top: 30px;
+	
+	transition: transform .9s; /* Animation */
+	position: relative;
+	top: 50%;
+	left: 16%;
+	transform: translate(-20%, -25%);
+  }
+  
+  #text1:hover {
+	transform: scale(1.5); /* (150% zoom) */
+  }
+  #text2 {
+	margin-top: 10px;
+	
+	transition: transform .9s; /* Animation */
+	position: relative;
+	top: 5%;
+	left: 16%;
+	transform: translate(-20%, -25%);
+  }
+  
+  #text2:hover {
+	transform: scale(1.5); /* (150% zoom) */
+  }
+  #text3 {
+	margin-top: 10px;
+	
+	transition: transform .9s; /* Animation */
+	position: relative;
+	top: 5%;
+	left: 16%;
+	transform: translate(-20%, -25%);
+  }
+  
+  #text3:hover {
+	transform: scale(1.5); /* (150% zoom) */
+  }
+  #text4 {
+	margin-top: 10px;
+	
+	transition: transform .9s; /* Animation */
+	position: relative;
+	top: 5%;
+	left: 16%;
+	transform: translate(-20%, -25%);
+  }
+  
+  #text4:hover {
+	transform: scale(1.5); /* (150% zoom) */
+  }
+  #zommies {
+	margin-top: 10px;
+	
+	transition: transform .9s; /* Animation */
+	position: relative;
+	top: 5%;
+	left: 16%;
+	transform: translate(-20%, -25%);
+  }
+  
+  #zommies:hover {
+	transform: scale(1.5); /* (150% zoom) */
+  }
+  #outThere {
+
+	transition: transform .9s; /* Animation */
+	transform: translate(-20%, -25%);
+  }
+  
+  #outThere:hover {
+	transform: scale(1.5); /* (150% zoom) */
+  }
+  #minimize {
+	
+	transition: transform .9s; /* Animation */
+	
+  }
+  
+  #minimize:hover {
+	transform: scale(0.8); /* (150% zoom) */
+  }
+  .exmp{
+
+	font-weight: bold;
+
+  }
 
 .article-read .article-content {
 	line-height: 28px;
