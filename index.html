@@ -12,11 +12,15 @@
 		<link rel="stylesheet" href="sweetalert/dist/sweetalert.css">
 		<link rel="stylesheet" href="css/stisla.css">
 		<link rel="icon" type='image/png' href="img/logo-light1.png">
-	
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 	</head>
 
 	<body>
-		<nav class="navbar navbar-expand-lg main-navbar">
+		<nav class="navbar navbar-expand-lg main-navbar ">
 			<div class="container-fluid">			
 			  <a class="navbar-brand" href="#">
 			  	<img src="img/logo-light1.png" alt="Logo">
@@ -32,14 +36,14 @@
 			      <li class="nav-item active">
 			        <a class="nav-link smooth-link" href="#hero">Home</a>
 			      </li>
+				  <li class="nav-item">
+			        <a class="nav-link smooth-link" href="#experience">Experience</a>
+			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link smooth-link" href="#features">Personal Information</a>
+			        <a class="nav-link smooth-link" href="#skills">Skills</a>
 			      </li>
 				  <li class="nav-item">
-			        <a class="nav-link smooth-link" href="#project">Experience</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link smooth-link" href="#blog">Skills</a>
+			        <a class="nav-link smooth-link" href="#personalinfo">Personal Information</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link smooth-link" href="#reference">Reference</a>
@@ -54,199 +58,217 @@
 			<div class="text py-5">
 				<p style = "margin: 30px;"  class="lead"> Hi!</p>
 				<h1 style = "margin: 30px;" >I'm <span class="bold">Jomel</span>.</h1>
-				<p style = "margin: 30px;" class="lead"> Java Junior Developer</p>
+				<p style = "margin: 30px;" class="lead">Junior Java Developer</p>
 				<p style = "margin: 30px; line-height: 3;"  class="projects-description"> Organized and dedicated individual seeking for a positon where I can make the best of my potential and contribute to the organization’s growth. </p>
-				<div class="cta">
-					<a href="#features" class="btn smooth-link align-middle btn-primary">Get Started</a>
-					<div class="lead">						
-						
-					</div>
+				<div >
+					<a href="#experience" class="btn-disp smooth-link">Get Started</a>
 				</div>
 			</div>
 		</section>
-
-		<section id="features" class=" box-wrap">
-			<div class="container expandFeatures">
-			  <div class="row ">
-				<div class="col-md-4 col-sm-6 col-xs-12 column1 box">
-					<div class="list-item  ">
-						<div class="icon">
+		
+		<section id="experience" class="quick-details">
+			<div class="row justify-content-center">
+				<div class="col-md-4 col-sm-6 col-xs-12 box">
+					<div class="list-item border-intensifier">
+						<div class="icon border-intensifier">
 							<i class="ion-folder"></i>
 						</div>
-						<div class="desc " style="text-align: left">
-							<h2  >JOMEL MERCADO</h2>
-							<p>jomelmercado1@gmail.com</p>
-							<p >+63 948 2533 476</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 column2 box">
-					<div class="list-item ">
-						<div class="icon">
-							<i class="ion-location"></i>
-						</div>
 						<div class="desc">
-							<p >CARILLO HAGONOY BULACAN</p>
-							<P>Birthday: SEPTEMBER 8 2000</p>
-							<p >
-							Gender: Male
-							</p>
+							<h2>JUNIOR JAVA DEVELOPER</h2>
+							<p><b>DigiPh </b>| July 2023 - November 2023</p>
+							<p class="experience-details">Building RESTful APIs to facilitate seamless communication between various components of the system</p>
+							<p class="experience-details">Implementing new features and functionalities in the existing codebase, ensuring adherence to coding standards and best practices</p>
+							<p class="experience-details">Participating in the entire software development lifecycle, from requirements gathering and design to coding, testing, and deployment</p>
+							<p class="experience-details">Collaborating with team members to conduct code reviews and ensuring code quality</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12 column3 box" >
-					<div class="list-item no-spacing ">
-						<div class="icon" >
+				<div class="col-md-4 col-sm-6 col-xs-12 box">
+					<div class="list-item border-intensifier">
+						<div class="icon border-intensifier">
 							<i class="ion-code"></i>
 						</div>
-						<div class="desc" style="text-align: right">
-							<h2>BACHELOR OF SCIENCE MAJOR IN INFORMATON TECHNOLOGY</h2>
-							<p>
-							BULACAN STATE UNIVERSITY
-							</p>
+						<div class="desc">
+							<h2>JAVA DEVELOPER INTERN</h2>
+							<p><b>Paradigma International </b>| February 2023 - April 2023</p>
+							<p class="experience-details">Debugging and troubleshooting issues in the project</p>
+							<p class="experience-details">Collaborating with team members to design and implement new features for the centralized information system</p>
+							<p class="experience-details">Performing functional testing to ensure code quality and maintainability </p>
+							<p class="experience-details">Contributing to code reviews and discussions on best practices</p>
+							<p class="experience-details">Presenting the created module to the client</p>
 						</div>
 					</div>
 				</div>
-			  </div>
+					<div class="list-item border-intensifier">
+						<div class="icon border-intensifier">
+							<i class="ion-briefcase"></i>
+						</div>
+						<div class="desc">
+							<h2>OTHER JOB EXPERIENCES</h2>
+							<button class="btn-dispvm smooth-link" data-toggle="modal" data-target="#otherJobsModal">View More</button>
+						</div>
+					</div>
+				
 			</div>
-		  </section>
-		  
-		<section class="bg-overlay padding" id="project" data-bg="img/projects.jpeg">
-			<div class="container">
+		</section>
+		
+		<!-- Modal -->
+		<div class="modal fade " id="otherJobsModal" tabindex="-1" role="dialog" aria-labelledby="otherJobsModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content border-intensifier">
+					<div class="  desc">
+						<h5  id="otherJobsModalLabel "></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body  ">
+						<div class=" modaldisp">
+							<h4>ASSISTANT</h4>
+							<p><b>Alvin's Documentation Services </b>| February 2024 - Current</p>
+							<p class="personal-des d-flex p-2" style="text-indent: 50px;">Offer detailed instructions and answer questions regarding the documentation process, ensuring compliance with local regulations and procedures</p>
+							<p class="personal-des d-flex p-2" style="text-indent: 50px;">Maintain up-to-date knowledge of driver’s license requirements and changes in regulations to provide accurate and timely assistance to clients</p>
+
+						</div>
+						<div class=" modaldisp">
+							<h4>DIGITAL ARTIST</h4>
+							<p><b>CAMSI </b>| December 2023 - January 2024</p>
+							<p class="personal-des d-flex p-2" style="text-indent: 50px;">Developed visually engaging digital signages for various clients, enhancing brand visibility and communication</p>
+							<p class="personal-des d-flex p-2" style="text-indent: 50px;">Utilized graphic design software to create high-quality signage that aligns with client branding and marketing strategies</p>
+						</div>
+						
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn-dispvm smooth-link" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+
+		<section class="padding bg-grey " id="skills">
+			<div class="container box-wrap" >
+				<div class="row">
+				<div class="col-md-6 centralSkill">
+					<h2 class="section-title minimal-des" id="minimize">TECHNICAL SKILLS</h2>
+					<div >
+						<div class=" border-intensifier skilldisp">
+							<p style="color: #7AB2B2;"><b>WEB DEVELOPMENT</b></p>
+							<p  class="experience-details skilldisp"> SpringBoot, HTML, CSS, JavaScript, Bootstrap</p>
+						</div>
+						<div class=" border-intensifier skilldisp">
+							<p style="color: #7AB2B2;"><b>DATABASE</b></p>
+							<p  class="experience-details skilldisp"> MySQL Workbench, Sequel Pro</p>
+						</div>
+						<div class=" border-intensifier skilldisp">
+							<p style="color: #7AB2B2;"><b>IDE</b></p>
+							<p  class="experience-details skilldisp"> IntelliJ IDEA, Eclipse, NetBeans, Visual Studio Code, Notepad ++, Android Studio</p>
+						</div>
+						<div class=" border-intensifier skilldisp">
+							<p style="color: #7AB2B2;"><b>Version CONTROL</b></p>
+							<p  class="experience-details skilldisp"> SpringBoot, HTML, CSS, JavaScript, Bootstrap</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-md-6 centralSkill ">
+					<h2 class="section-title minimal-des" id="minimize">SOFT SKILLS</h2>
+							<div>
+								<div class=" border-intensifier skilldisp">
+									<p style="color: #7AB2B2;"><b>Problem-solving skills</b></p>
+								</div>
+								<div class=" border-intensifier skilldisp">
+									<p style="color: #7AB2B2;"><b>Attention to details</b></p>
+								</div>
+								<div class=" border-intensifier skilldisp">
+									<p style="color: #7AB2B2;"><b>Adaptive</b></p>
+								</div>
+								<div class=" border-intensifier skilldisp">
+									<p style="color: #7AB2B2;"><b>Time Management</b></p>
+								</div>
+								<div class=" border-intensifier skilldisp">
+									<p style="color: #7AB2B2;"><b>Dedicated</b></p>
+								</div>
+			
+							</div>
+				</div>
+				</div>
+			</div>
+		</section> 
+
+		<section id="personalinfo" class="quick-details">
+			<div class="row justify-content-center" >
 				<div class="row align-items-center">
-					<div class="col-12 col-md-6">
+					<div class="col-12 col-md-6 ">
 						<figure class="projects-picture">
 							<img src="img/youzhang.png" id="youzhang"alt="Youzhang" style="border-radius: 50%; ">
 						</figure>
 					</div>
 					<div class="col-12 col-md-6">
-						<div class="projects-details">
-							<div class="projects-badge"  id="outThere">
-								EXPERIENCE
+						<div class="personal-des">
+							<h2 style="width: max-content;">Jomel Luna Mercado</h2>
+							<div class="personal-info border-intensifier">
+								<i class="ion-email"></i>
+								<p>jomelmercado1@gmail.com</p>
 							</div>
-							<h2 class="projects-title" id="zommies">Java Developer Intern</h2>
-							<h3 class="projects-title" id="zommies">Paradigma International | 2023</h3>
-
-
-							<p class="projects-description memamo" style="text-indent: 25px; text-align: justify">
-								&emsp;Collaborating with team members to design and implement new features for the centralized information system
-							</p>
-							<p class="projects-description memamo" style="text-indent: 25px; text-align: justify">
-								&emsp;Presenting the created module to the client
-							</p>
-							<p class="projects-description memamo" style="text-indent: 25px; text-align: justify">
-								&emsp;Debugging and troubleshooting issues in the project 
-							</p>
-							<p class="projects-description memamo" style="text-indent: 25px; text-align: justify">
-								&emsp;Performing functional testing to ensure code quality and maintainability 
-							</p>
-							<p class="projects-description memamo" style="text-indent: 25px; text-align: justify">
-								&emsp;Contributing to code reviews and discussions on best practices 
-							</p>
-							<div class="reference"><div class="projects-cta">
-								<div class="col-12 col-md-4 cta">
-									<a href="#reference" class="btn smooth-link align-middle btn-primary">
-										Reference
-									</a>
+							<div class="personal-info icon border-intensifier">
+								<i class="ion-android-contacts"></i>
+								<p>0948-253-3476</p>
+							</div>
+							
+							<div class="reference">
+								<div class="projects-cta">
+									<div class="col-12 col-md-4 cta">
+										<a href="#reference" class="btn-disp smooth-link">
+											Reference
+										</a>
+									</div>
 								</div>
-								
-							</div>
 						</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-
 		
-		
-		<section class="padding bg-grey" id="blog">
-		<div class="container box-wrap" id="blog">
-			<div class="row">
-			  <div class="col-md-6 centralSkill">
-				<h2 class="section-title " id="minimize">TECHNICAL SKILLS</h2>
-				<div >
-					<p id="text1" style = "margin-left: 30px; line-height: 3;"  class="section-lead text-muted box">Programming languages: <span class="exmp"> Java, Python, C++</span></p>
-					<p id="text2"style = "margin-left: 30px; line-height: 3;"  class="section-lead text-muted box">Web development: <span class="exmp"> HTML, CSS, JavaScript, Bootstrap</span></p>	
-					<p id="text3"style = "margin-left: 30px; line-height: 3;"  class="section-lead text-muted box">Database:  <span class="exmp"> MySQL</span></p>	
-					<p id="text4"style = "margin-left: 30px; line-height: 3;"  class="section-lead text-muted box">Tools:  <span class="exmp"> Git, Eclipse, Visual Studio, PyCharm</span></p>	
-
-				
-				
-				
-				</div>
-
-			  </div>
-			  <div class="col-md-6 centralSkill ">
-				<h2 class="section-title" id="minimize">SOFT SKILLS</h2>
-						<div>
-	
-							<p id="text1" style = "margin-left: 30px; line-height: 3;"  class="section-lead text-muted box">Problem-solving skills</p>
-							<p id="text2"style = "margin-left: 30px; line-height: 3;"  class="section-lead text-muted box"><span class="exmp"> Attention to details</span></p>	
-							<p id="text3"style = "margin-left: 30px; line-height: 3;"  class="section-lead text-muted box">Dedicated<p>	
-							<p id="text4"style = "margin-left: 30px; line-height: 3;"  class="section-lead text-muted box"><span class="exmp"> Adaptive</p>	
-		
-						</div>
-			  </div>
-			</div>
-		  </div>
-		  
-		</section> 
-		
-		  
-		
-		
-
-
 		<section class="padding" id="reference">
-			<div class="container" >
+			<div class="container">
 				<h2 class="section-title text-center" id="minimize">REFERENCES</h2>
 				<div class="row">
-					
-					<div class="col-12 col-md-4 col-sm-12 ">
-						<div class="list-item ">
-							
-							<div id="zommies" class="desc borderInfo" style="text-align: center;">
-								<h5 >JOHANN PAULO RUSTE</h5>
+					<div class="col-12 col-md-4 col-sm-12">
+						<div class="border-intensifier skilldisp">
+							<h5><b>JOHANN PAULO RUSTE</b></h5>
 							<p class="text-muted">OJT Trainer</p>
-							<h7  style="color: black;"> Contact details are available upon request.</h7>
-								
-							</div>
 						</div>
 					</div>
 					<div class="col-12 col-md-4 col-sm-12">
-					
+						<div class="border-intensifier skilldisp">
+							<h5><b>LISANDRO GARRIDO</b></h5>
+							<p class="text-muted">IT Supervisor of Paradigma International</p>
+						</div>
 					</div>
-					<div class="col-12 col-md-4 col-sm-12 ">
-						<div class="list-item no-spacing ">
-							
-							<div id="zommies" class="desc borderInfo" style="text-align: center;">
-								<h5>LISANDRO GARRIDO</h5>
-							<p class="text-muted">IT Supervisor  of Paradigma International</p>
-							<h7  style="color: black;"> Contact details are available upon request.</h7>
-							</div>
+					<div class="col-12 col-md-4 col-sm-12">
+						<div class="border-intensifier skilldisp">
+							<h5><b>ASHLEY SOMBRANO</h5>
+							<p class="text-muted">DigiPh | Human Resources Administrator</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		
-
-
-
-		
-		<footer>
-			
-
-			<div class="container">
-				<a href="https://www.facebook.com/dyomeljramercado" id="facebook"><img src="img/icons8-facebook-48.png"  alt="facebook"></a>
-
-				<div class="desc">
-					<p style = "margin: 30px;"  class="lead"> All rights reserve 2023 &copy;</p>
-				</div>
+		<footer class="footer elegant">
+			<div class="footer-content">
+				<a href="https://www.facebook.com/profile.php?id=61554401666605&mibextid=ZbWKwL" id="facebook"><img src="img/icons8-facebook-48.png"  alt="facebook"></a>
+				</a>
+				<p class="disclaimer">
+					The information on this page is my personal information intended only for work purposes. Please do not use or distribute this information without permission.
+				</p>
 			</div>
-
 		</footer>
+		
+		
 
 		<script src="js/jquery.min.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>

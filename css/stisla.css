@@ -1,6 +1,7 @@
 /*reset*/
 html, body {
 	height: 100% !important;
+	background-color: #EEF7FF;
 	
 }
 
@@ -51,13 +52,14 @@ html, body {
 }
 
 .overlay {
-	background-color: #000;
+	background-color: #000000;
 	opacity: .85;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
+	/* border-radius: 50px; */
 }
 
 /*article read*/
@@ -159,52 +161,23 @@ transition: .5s;
 .article-read .article-picture img {
 	width: 100%;
 }
-#text1 {
-	margin-top: 30px;
-	
-	transition: transform .9s; /* Animation */
-	position: relative;
-	
-	
-  }
-  
-  #text1:hover {
-	transform: scale(1.5); /* (150% zoom) */
+.skilldisp {
+	padding: 3px;
+    margin-top: 5px;
+    transition: transform 0.9s ease; /* Smooth animation */
+    position: relative;
+	text-align: center;
+	border: 3px solid #CDE8E5;
+	border-radius: 20px;
+	padding: 6px;
+    overflow: hidden; /* Prevents any content from spilling outside */
+}
 
-  }
-  #text2 {
-	margin-top: 10px;
-	
-	transition: transform .9s; /* Animation */
-	position: relative;
-	
-  }
-  
-  #text2:hover {
-	transform: scale(1.5); /* (150% zoom) */
-  }
-  #text3 {
-	margin-top: 10px;
-	
-	transition: transform .9s; /* Animation */
-	position: relative;
+.skilldisp:hover {
+    transform: scale(1.1); /* Zooms in to 150% */
+}
 
-  }
-  
-  #text3:hover {
-	transform: scale(1.5); /* (150% zoom) */
-  }
-  #text4 {
-	margin-top: 10px;
-	
-	transition: transform .9s; /* Animation */
-	position: relative;
-	
-  }
-  
-  #text4:hover {
-	transform: scale(1.5); /* (150% zoom) */
-  }
+ 
   #zommies {
 	margin-top: 10px;
 	
@@ -228,15 +201,14 @@ transition: .5s;
 	transform: scale(1.5); /* (150% zoom) */
   }
   #minimize {
-	
-	transition: transform .9s; /* Animation */
-	
+	text-shadow: 0px 2px 4px #575656;
+	transition: transform .9s; 
   }
   
   #minimize:hover {
-	transform: scale(0.8); /* (150% zoom) */
+	transform: scale(0.9);
   }
-  .memamo:hover
+  /* .memamo:hover
 {border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 	animation-name: example;
@@ -245,18 +217,350 @@ transition: .5s;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 	text-transform: uppercase;
 	transition: transform 0.3s ease;
+} */
+.job-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #f8f6f6;
+    margin-bottom: 10px; /* Increased margin for spacing */
+    text-align: left; /* Aligns text to the left */
 }
+
+.company-name {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #f6f7f8;
+    margin-bottom: 15px; /* Increased margin for spacing */
+    text-align: left; /* Aligns text to the left */
+}
+
+.experience-details {
+    font-size: 1.2em;
+    color: #4D869C;
+	text-indent: 50px;
+    line-height: 1.8; /* Increased line height for more spacing between lines */
+    margin-bottom: 20px; /* Increased margin for spacing */
+    text-align: left; /* Aligns text to the left */
+}
+.quick-details {
+    background-color: #7AB2B2; /* Background color */
+    padding: 90px; /* Adds space inside the element */
+    /* margin: 20px 0; Adds space above and below the element */
+    border-radius: 20px; /* Rounds the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    color: #ff5a5f; /* Sets text color to white */
+    font-size: 1.2em; /* Adjusts font size */
+    text-align: center; /* Centers text inside the element */
+    margin-top: -50px; /* Adjust this value as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modaldisp {
+	padding: 3px;
+    margin-top: 5px;
+    transition: transform 0.9s ease; /* Smooth animation */
+    position: relative;
+	text-align: center;
+	border: 3px solid #CDE8E5;
+	border-radius: 20px;
+	padding: 6px;
+	background-color: #7AB2B2;
+	color: white;
+    overflow: hidden; /* Prevents any content from spilling outside */
+}
+
+.modaldisp:hover {
+    transform: scale(1.1); /* Zooms in to 150% */
+}
+.background-adjustment{
+	background-color: #EEF7FF;
+}
+.personal-des{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #EEF7FF;
+	text-align: left;
+}
+.minimal-des{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #ff5a5f;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border-intensifier{
+	padding: 10px;
+    border-radius: 20px; /* Rounds the corners */
+    border: 3px solid #7AB2B2; /* Adds a border around the element */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Intensifies the shadow */
+}
+
+.personal-info {
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Vertically centers items */
+    padding: 10px; /* Padding inside the container */
+    border-radius: 8px; /* Optional: Rounds the corners */
+	margin: 16px;
+	width: max-content;
+}
+
+.personal-info i {
+    font-size: 24px; /* Adjust the size of the icon */
+    color: #4D869C; /* Color of the icon */
+    margin-right: 10px; /* Space between icon and text */
+	color: #EEF7FF;
+}
+
+.personal-info p {
+    margin: 0; /* Removes default margin from the paragraph */
+    font-size: 16px; /* Adjust the font size */
+    color: #333; /* Color of the text */
+	color: #EEF7FF;
+}
+
+.padding {
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-md-4 {
+    width: 31.33%;
+}
+
+.list-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.desc h5 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-muted {
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    color: #000;
+}
+
+.modal-header {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-footer {
+    border-top: 1px solid #ddd;
+}
+
+.experience-entry {
+    margin-bottom: 15px;
+}
+
+.experience-entry h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.experience-entry p {
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-dispvm {
+    border: 2px solid #4D869C; /* Border color */
+    background-color: transparent; /* No background color */
+    color: #4D869C; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Inline-block display */
+    transition: background-color 0.3s, color 0.9s; /* Smooth transition for background and text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 25px; /* Optional: Rounded corners */
+}
+
+/* Button hover effect */
+.btn-dispvm:hover {
+    background-color: #4D869C; /* Background color on hover */
+    color: #7AB2B2; /* Transparent text on hover */
+    border-color: #4D869C; /* Border color on hover (optional if you want to change it) */
+}
+
+/* Initial button style */
+.btn-disp {
+    border: 2px solid #4D869C; /* Border color */
+    background-color: transparent; /* No background color */
+    color: #EEF7FF; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Inline-block display */
+    transition: background-color 0.3s, color 0.9s; /* Smooth transition for background and text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 25px; /* Optional: Rounded corners */
+}
+
+/* Button hover effect */
+.btn-disp:hover {
+    background-color: #4D869C; /* Background color on hover */
+    color: #7AB2B2; /* Transparent text on hover */
+    border-color: #4D869C; /* Border color on hover (optional if you want to change it) */
+}
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from parent (optional) */
+}
+
+a:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
+.box {
+    border: 2px solid #333; /* Border color */
+    background-color: transparent; /* No background color initially */
+    padding: 20px; /* Padding inside the box */
+    margin-bottom: 20px; /* Space below the box */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+    position: relative; /* To position the icon */
+    border-radius: 10px; /* Optional: Rounded corners */
+    display: inline-block; /* Ensure the box expands */
+    width: 100%; /* Ensure the box takes up full width */
+}
+
+.box:hover {
+    background-color: #333; /* Background color on hover */
+    color: white; /* Text color on hover */
+}
+
+.box .icon {
+    position: absolute;
+    top: -20px; /* Adjust based on your needs */
+    left: 20px; /* Adjust based on your needs */
+    font-size: 2em; /* Icon size */
+    background-color: white; /* Background for icon */
+    padding: 10px; /* Padding around icon */
+    border-radius: 50%; /* Make the icon background a circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow for the icon */
+    color: #333; /* Icon color */
+}
+
+.box:hover .icon {
+    background-color: #333; /* Icon background on hover */
+    color: white; /* Icon color on hover */
+}
+
+.box .desc {
+    margin-left: 60px; /* Adjust based on your needs to make space for the icon */
+    transition: color 0.3s; /* Smooth transition for text color */
+}
+
+.box:hover .desc {
+    color: white; /* Text color on hover */
+}
+
+.box h2 {
+    margin-top: 0;
+    font-size: 1.5em; /* Font size for the heading */
+}
+
+.box p {
+    font-size: 1em; /* Font size for the paragraphs */
+ }
+
+.row {
+    display: flex;
+    justify-content: space-around; /* Center and space out boxes */
+    margin-left: -15px; /* Offset for the padding */
+    margin-right: -15px; /* Offset for the padding */
+    flex-wrap: wrap; /* Ensure boxes wrap on smaller screens */
+}
+
+.col-md-4,
+.col-sm-6,
+.col-xs-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px; /* Add space between rows */
+    display: flex; /* Use flexbox for columns */
+    align-items: stretch; /* Make columns stretch to the same height */
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+
+
 @keyframes example {
     0%   {border-left: 2px solid #ffffff;}
     25%  {border-left: 3px solid #c9c7c7;}
     50%  {border-left: 4px solid #8a8a8a;}
     100% {border-left: 5px solid #4e4e4e;}
 }
-  .exmp{
-
-	font-weight: bold;
-
-  }
  #softSection{
 
 	border-radius: 30px;
@@ -272,10 +576,12 @@ transition: .5s;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	z-index: 1;
+	transition: background-color 0.3s; 
 }
 
 .navbar.main-navbar.bg-dark {
-	background-color: #000 !important;
+	background-color: transparent !important;
+	/* background-color: #333333 !important; */
 }
 
 .navbar.main-navbar .navbar-brand {
@@ -286,6 +592,8 @@ transition: .5s;
 
 .navbar.main-navbar .navbar-brand img {
 	width: 100%;
+	max-height: 50px;
+	max-width: 50px;
 }
 
 .navbar.main-navbar .nav-link {
@@ -299,6 +607,7 @@ transition: .5s;
 	-webkit-transition: all .5s;
 	-o-transition: all .5s;
 	-ms-transition: all .5s;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8); 
 }
 
 .navbar.main-navbar .nav-link:after {
@@ -871,34 +1180,24 @@ form.contact .btn-primary:hover {
 .contact-icon div {
 	margin-left: 35px;
 }
-
-/*footer*/
-footer {
-	padding: 80px 0 60px 0;
-	text-align: center;
-	background-color: #000;
-	color: #fff;
+/* Elegant footer styling with gradient */
+.footer.elegant {
+    background: linear-gradient(to right, #4D869C, #7AB2B2); /* Gradient background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
 }
 
-footer figure {
-	width: 120px;
-	margin: 0 auto;
-	margin-bottom: 30px;
+.footer.elegant .logo img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
-footer figure img {
-	width: 100%;
+.footer.elegant .disclaimer {
+    font-size: 0.9em;
+    margin: 0;
 }
-
-footer p {
-	font-weight: 600;
-	letter-spacing: 1.5px;
-	font-size: 12px;
-	color: #777;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-}
-
 footer i {
 	color: #ff0000;
 }
@@ -956,11 +1255,4 @@ footer i {
 	}
 	.list-item {
 		padding-bottom: 40px;
-	}
-}
-
-@media screen and (max-width: 320px) {
-	.article-read .article-read-inner {
-		width: 80%;
-	}
-}
+	}}
