@@ -308,7 +308,10 @@ header[id] {
 }
 
 .experience-item.is-current .experience-card {
+	border-color: #b8ddd4;
 	border-top: 4px solid var(--teal);
+	background: #edf8f5;
+	box-shadow: 0 5px 18px rgba(8, 126, 120, .08);
 }
 
 .experience-card h3 {
@@ -418,7 +421,7 @@ header[id] {
 }
 
 .profile-picture {
-	width: min(176px, 62%);
+	width: min(250px, 75%);
 	margin: 0 auto 28px;
 	border: 3px solid rgba(133, 224, 204, .5);
 	border-radius: 50%;
