@@ -17,4 +17,4 @@ To document my progress as a developer, showcase my work, and continuously impro
 
 ---
 
-*Mamba Out! 🏀*
+## Mamba Out! 🏀
