@@ -3,277 +3,159 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<meta name="author" content="Kodinger">
-		<meta name="keyword" content="Kodinger, template, html5, css3, bootstrap4">
-		<meta name="description" content="HTML5 and CSS3 Template Based on Bootstrap 4">
+		<meta name="description" content="Jomel Luna Mercado, junior full stack developer. Experience, tech stack, and certifications.">
+		<meta name="theme-color" content="#142a30">
 		<title>Jomel</title>
 		<link rel="stylesheet" href="ionicons/css/ionicons.min.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="sweetalert/dist/sweetalert.css">
-		<link rel="stylesheet" href="css/stisla.css">
-		<link rel="icon" type='image/png' href="img/logo-light1.png">
-		<!-- jQuery -->
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		<!-- Bootstrap JavaScript -->
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/jomel.css">
+		<link rel="icon" type="image/svg+xml" href="img/jomel-mark.svg">
 
 	</head>
 
 	<body>
-		<nav class="navbar navbar-expand-lg main-navbar ">
-			<div class="container-fluid">			
-			  <a class="navbar-brand" href="#">
-			  	<img src="img/logo-light1.png" alt="Logo">
-			  </a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon">
-			    	<i class="ion-navicon"></i>
-			    </span>
-			  </button>
-			  <div class="collapse navbar-collapse" id="navbarNav">
-				  <div class="mr-auto"></div>
-			    <ul class="navbar-nav">
-			      <li class="nav-item active">
-			        <a class="nav-link smooth-link" href="#hero">Home</a>
-			      </li>
-				  <li class="nav-item">
-			        <a class="nav-link smooth-link" href="#experience">Experience</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link smooth-link" href="#skills">Skills</a>
-			      </li>
-				  <li class="nav-item">
-			        <a class="nav-link smooth-link" href="#personalinfo">Personal Information</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link smooth-link" href="#reference">Reference</a>
-			      </li>
-			    </ul>
-			    <form class="form-inline">
-			    </form>
-			  </div>
-		  </div>
-		</nav>
-		<section class="hero bg-overlay " id="hero" data-bg="img/hero.jpeg">
-			<div class="text py-5">
-				<p style = "margin: 30px;"  class="lead"> Hi!</p>
-				<h1 style = "margin: 30px;" >I'm <span class="bold">Jomel</span>.</h1>
-				<p style = "margin: 30px;" class="lead">Junior Java Developer</p>
-				<p style = "margin: 30px; line-height: 3;"  class="projects-description"> Organized and dedicated individual seeking for a positon where I can make the best of my potential and contribute to the organization’s growth. </p>
-				<div >
-					<a href="#experience" class="btn-disp smooth-link">Get Started</a>
-				</div>
-			</div>
-		</section>
-		
-		<section id="experience" class="quick-details">
-			<div class="row justify-content-center">
-				<div class="col-md-4 col-sm-6 col-xs-12 box">
-					<div class="list-item border-intensifier">
-						<div class="icon border-intensifier">
-							<i class="ion-folder"></i>
-						</div>
-						<div class="desc">
-							<h2>JUNIOR JAVA DEVELOPER</h2>
-							<p><b>DigiPh </b>| July 2023 - November 2023</p>
-							<p class="experience-details">Building RESTful APIs to facilitate seamless communication between various components of the system</p>
-							<p class="experience-details">Implementing new features and functionalities in the existing codebase, ensuring adherence to coding standards and best practices</p>
-							<p class="experience-details">Participating in the entire software development lifecycle, from requirements gathering and design to coding, testing, and deployment</p>
-							<p class="experience-details">Collaborating with team members to conduct code reviews and ensuring code quality</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 box">
-					<div class="list-item border-intensifier">
-						<div class="icon border-intensifier">
-							<i class="ion-code"></i>
-						</div>
-						<div class="desc">
-							<h2>JAVA DEVELOPER INTERN</h2>
-							<p><b>Paradigma International </b>| February 2023 - April 2023</p>
-							<p class="experience-details">Debugging and troubleshooting issues in the project</p>
-							<p class="experience-details">Collaborating with team members to design and implement new features for the centralized information system</p>
-							<p class="experience-details">Performing functional testing to ensure code quality and maintainability </p>
-							<p class="experience-details">Contributing to code reviews and discussions on best practices</p>
-							<p class="experience-details">Presenting the created module to the client</p>
-						</div>
-					</div>
-				</div>
-					<div class="list-item border-intensifier">
-						<div class="icon border-intensifier">
-							<i class="ion-briefcase"></i>
-						</div>
-						<div class="desc">
-							<h2>OTHER JOB EXPERIENCES</h2>
-							<button class="btn-dispvm smooth-link" data-toggle="modal" data-target="#otherJobsModal">View More</button>
-						</div>
-					</div>
-				
-			</div>
-		</section>
-		
-		<!-- Modal -->
-		<div class="modal fade " id="otherJobsModal" tabindex="-1" role="dialog" aria-labelledby="otherJobsModalLabel" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content border-intensifier">
-					<div class="  desc">
-						<h5  id="otherJobsModalLabel "></h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
+				<nav class="navbar navbar-expand-lg main-navbar">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="#hero" aria-label="Jomel, home"><img src="img/jomel-mark.svg" alt=""><span class="brand-name">Jomel</span></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"><i class="ion-navicon" aria-hidden="true"></i></span>
 						</button>
-					</div>
-					<div class="modal-body  ">
-						<div class=" modaldisp">
-							<h4>ASSISTANT</h4>
-							<p><b>Alvin's Documentation Services </b>| February 2024 - Current</p>
-							<p class="personal-des d-flex p-2" style="text-indent: 50px;">Offer detailed instructions and answer questions regarding the documentation process, ensuring compliance with local regulations and procedures</p>
-							<p class="personal-des d-flex p-2" style="text-indent: 50px;">Maintain up-to-date knowledge of driver’s license requirements and changes in regulations to provide accurate and timely assistance to clients</p>
-
-						</div>
-						<div class=" modaldisp">
-							<h4>DIGITAL ARTIST</h4>
-							<p><b>CAMSI </b>| December 2023 - January 2024</p>
-							<p class="personal-des d-flex p-2" style="text-indent: 50px;">Developed visually engaging digital signages for various clients, enhancing brand visibility and communication</p>
-							<p class="personal-des d-flex p-2" style="text-indent: 50px;">Utilized graphic design software to create high-quality signage that aligns with client branding and marketing strategies</p>
-						</div>
-						
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn-dispvm smooth-link" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-
-
-		<section class="padding bg-grey " id="skills">
-			<div class="container box-wrap" >
-				<div class="row">
-				<div class="col-md-6 centralSkill">
-					<h2 class="section-title minimal-des" id="minimize">TECHNICAL SKILLS</h2>
-					<div >
-						<div class=" border-intensifier skilldisp">
-							<p style="color: #7AB2B2;"><b>WEB DEVELOPMENT</b></p>
-							<p  class="experience-details skilldisp"> SpringBoot, HTML, CSS, JavaScript, Bootstrap</p>
-						</div>
-						<div class=" border-intensifier skilldisp">
-							<p style="color: #7AB2B2;"><b>DATABASE</b></p>
-							<p  class="experience-details skilldisp"> MySQL Workbench, Sequel Pro</p>
-						</div>
-						<div class=" border-intensifier skilldisp">
-							<p style="color: #7AB2B2;"><b>IDE</b></p>
-							<p  class="experience-details skilldisp"> IntelliJ IDEA, Eclipse, NetBeans, Visual Studio Code, Notepad ++, Android Studio</p>
-						</div>
-						<div class=" border-intensifier skilldisp">
-							<p style="color: #7AB2B2;"><b>Version CONTROL</b></p>
-							<p  class="experience-details skilldisp"> SpringBoot, HTML, CSS, JavaScript, Bootstrap</p>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<div class="mr-auto"></div>
+							<ul class="navbar-nav">
+								<li class="nav-item active"><a class="nav-link" href="#hero">Home</a></li>
+								<li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+								<li class="nav-item"><a class="nav-link" href="#tech-stack">Tech Stack</a></li>
+								<li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+								<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+							</ul>
 						</div>
 					</div>
-
-				</div>
-				<div class="col-md-6 centralSkill ">
-					<h2 class="section-title minimal-des" id="minimize">SOFT SKILLS</h2>
-							<div>
-								<div class=" border-intensifier skilldisp">
-									<p style="color: #7AB2B2;"><b>Problem-solving skills</b></p>
+				</nav>
+				<main>
+					<header class="hero" id="hero">
+						<div class="hero-content">
+							<p class="hero-terminal" aria-hidden="true"><span class="terminal-host">jomel@portfolio</span> <span class="terminal-path">~/site</span><br><span class="terminal-prompt">$ </span><span class="terminal-command">whoami</span></p>
+							<p class="hero-eyebrow">Hello, I'm</p>
+							<h1>Jomel <span>Mercado</span></h1>
+							<p class="hero-role">Junior Full Stack Developer</p>
+							<p class="hero-description">Driven professional with a strong sense of responsibility, a persistent approach to challenges, and a commitment
+to delivering quality results. Eager to expand knowledge, develop new skills, and continuously improve through
+experience and collaboration.</p>
+							<a href="#experience" class="btn-disp">View my experience</a>
+						</div>
+					</header>
+					<section id="experience" class="experience-section">
+						<div class="container">
+							<h2 class="section-title">Experience</h2>
+							<p class="experience-intro">A few highlights from my work across full-stack development, operations, and Java.</p>
+							<ol class="experience-timeline">
+								<li class="experience-item is-current">
+									<time class="experience-date" datetime="2025-05">May 2025<span>Present</span></time>
+									<article class="experience-card">
+										<div class="experience-heading"><div><p class="experience-company">Myridius</p><h3>Jr. Full Stack Developer</h3></div><span class="experience-status">Current</span></div>
+										<p class="experience-summary">Deliver enterprise features across Angular, React, Java, Spring, and SQL Server while preserving existing business logic.</p>
+										<details class="experience-details">
+											<summary><span class="details-closed">Show details</span><span class="details-open">Hide details</span></summary>
+											<ul>
+												<li>Connect frontend features with APIs, database operations, authentication, and third-party services.</li>
+												<li>Support delivery from requirements through testing and deployment with Jenkins, GitLab, and Git.</li>
+												<li>Troubleshoot across the stack and address security issues through ServiceNow.</li>
+											</ul>
+										</details>
+									</article>
+								</li>
+								<li class="experience-item">
+									<time class="experience-date" datetime="2024-01">January 2024<span>February 2025</span></time>
+									<article class="experience-card">
+										<div class="experience-heading"><div><p class="experience-company">Alvin's Documentation Services</p><h3>Operations Manager</h3></div></div>
+										<p class="experience-summary">Managed documentation operations and guided clients through accurate, compliant submissions.</p>
+										<details class="experience-details">
+											<summary><span class="details-closed">Show details</span><span class="details-open">Hide details</span></summary>
+											<ul>
+												<li>Helped clients understand documentation requirements and procedures.</li>
+												<li>Tracked requirement and regulation changes to provide current guidance.</li>
+										</ul>
+										</details>
+									</article>
+								</li>
+								<li class="experience-item">
+									<time class="experience-date" datetime="2023-07">July 2023<span>November 2023</span></time>
+									<article class="experience-card">
+										<div class="experience-heading"><div><p class="experience-company">DigiPh</p><h3>Junior Java Developer</h3></div></div>
+										<p class="experience-summary">Built Java features and REST APIs to support application functionality and system integration.</p>
+										<details class="experience-details">
+											<summary><span class="details-closed">Show details</span><span class="details-open">Hide details</span></summary>
+											<ul>
+												<li>Tested, debugged, and maintained application code.</li>
+												<li>Collaborated with the team throughout the software development lifecycle.</li>
+										</ul>
+										</details>
+									</article>
+								</li>
+								<li class="experience-item">
+									<time class="experience-date" datetime="2023-02">February 2023<span>April 2023</span></time>
+									<article class="experience-card">
+										<div class="experience-heading"><div><p class="experience-company">Paradigma International</p><h3>Java Developer Intern</h3></div></div>
+										<p class="experience-summary">Contributed to a centralized information system through development, testing, and team collaboration.</p>
+										<details class="experience-details">
+											<summary><span class="details-closed">Show details</span><span class="details-open">Hide details</span></summary>
+											<ul>
+												<li>Helped design and implement features, troubleshoot issues, and perform functional testing.</li>
+												<li>Contributed to code reviews and presented a completed module to the client.</li>
+										</ul>
+										</details>
+									</article>
+								</li>
+							</ol>
+						</div>
+					</section>
+					<section class="skills-section" id="tech-stack">
+						<div class="container">
+							<h2 class="section-title">Tech Stack</h2>
+							<div class="row">
+								<div class="col-12 technical-skill-group">
+									<dl class="technical-skill-list">
+										<div><dt>Programming Languages</dt><dd>Java, JavaScript</dd></div>
+										<div><dt>Frontend Development</dt><dd>HTML, CSS, Bootstrap</dd></div>
+										<div><dt>Backend Development</dt><dd>Spring Boot</dd></div>
+										<div><dt>API Development</dt><dd>REST APIs</dd></div>
+										<div><dt>Databases</dt><dd>MySQL</dd></div>
+										<div><dt>Version Control &amp; Collaboration</dt><dd>Git, GitLab, SourceTree</dd></div>
+										<div><dt>CI/CD &amp; Automation</dt><dd>Jenkins</dd></div>
+										<div><dt>Development Tools</dt><dd>IntelliJ IDEA, Eclipse, Visual Studio Code</dd></div>
+										<div><dt>Project Management &amp; IT Service Management</dt><dd>Jira, Trello, ServiceNow</dd></div>
+									</dl>
 								</div>
-								<div class=" border-intensifier skilldisp">
-									<p style="color: #7AB2B2;"><b>Attention to details</b></p>
-								</div>
-								<div class=" border-intensifier skilldisp">
-									<p style="color: #7AB2B2;"><b>Adaptive</b></p>
-								</div>
-								<div class=" border-intensifier skilldisp">
-									<p style="color: #7AB2B2;"><b>Time Management</b></p>
-								</div>
-								<div class=" border-intensifier skilldisp">
-									<p style="color: #7AB2B2;"><b>Dedicated</b></p>
-								</div>
-			
 							</div>
-				</div>
-				</div>
-			</div>
-		</section> 
-
-		<section id="personalinfo" class="quick-details">
-			<div class="row justify-content-center" >
-				<div class="row align-items-center">
-					<div class="col-12 col-md-6 ">
-						<figure class="projects-picture">
-							<img src="img/youzhang.png" id="youzhang"alt="Youzhang" style="border-radius: 50%; ">
-						</figure>
-					</div>
-					<div class="col-12 col-md-6">
-						<div class="personal-des">
-							<h2 style="width: max-content;">Jomel Luna Mercado</h2>
-							<div class="personal-info border-intensifier">
-								<i class="ion-email"></i>
-								<p>jomelmercado1@gmail.com</p>
-							</div>
-							<div class="personal-info icon border-intensifier">
-								<i class="ion-android-contacts"></i>
-								<p>0948-253-3476</p>
-							</div>
-							
-							<div class="reference">
-								<div class="projects-cta">
-									<div class="col-12 col-md-4 cta">
-										<a href="#reference" class="btn-disp smooth-link">
-											Reference
-										</a>
-									</div>
-								</div>
 						</div>
+					</section>
+					<section class="certification-section" id="certifications">
+						<div class="container">
+							<h2 class="section-title">Certifications</h2>
+							<ul class="certification-list">
+								<li class="certification-item"><div><h3>Introduction to AWS</h3><p>Understand AWS basics in 4 hours!</p></div><time datetime="2025">2025</time></li>
+								<li class="certification-item"><div><h3>Introduction to Cloud Computing on AWS for Beginners</h3></div><time datetime="2025">2025</time></li>
+								<li class="certification-item"><div><h3>AI-900: Microsoft Azure AI Fundamentals in a Weekend</h3></div><time datetime="2025">2025</time></li>
+								<li class="certification-item"><div><h3>Azure AI-050: Generative AI Solutions with Azure OpenAI</h3></div><time datetime="2025">2025</time></li>
+								<li class="certification-item"><div><h3>IBM: Artificial Intelligence Fundamentals</h3></div><time datetime="2025">2025</time></li>
+							</ul>
 						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<section class="padding" id="reference">
-			<div class="container">
-				<h2 class="section-title text-center" id="minimize">REFERENCES</h2>
-				<div class="row">
-					<div class="col-12 col-md-4 col-sm-12">
-						<div class="border-intensifier skilldisp">
-							<h5><b>JOHANN PAULO RUSTE</b></h5>
-							<p class="text-muted">OJT Trainer</p>
-						</div>
-					</div>
-					<div class="col-12 col-md-4 col-sm-12">
-						<div class="border-intensifier skilldisp">
-							<h5><b>LISANDRO GARRIDO</b></h5>
-							<p class="text-muted">IT Supervisor of Paradigma International</p>
-						</div>
-					</div>
-					<div class="col-12 col-md-4 col-sm-12">
-						<div class="border-intensifier skilldisp">
-							<h5><b>ASHLEY SOMBRANO</h5>
-							<p class="text-muted">DigiPh | Human Resources Administrator</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<footer class="footer elegant">
-			<div class="footer-content">
-				<a href="https://www.facebook.com/profile.php?id=61554401666605&mibextid=ZbWKwL" id="facebook"><img src="img/icons8-facebook-48.png"  alt="facebook"></a>
-				</a>
-				<p class="disclaimer">
-					The information on this page is my personal information intended only for work purposes. Please do not use or distribute this information without permission.
-				</p>
-			</div>
-		</footer>
-		
-		
-
-		<script src="js/jquery.min.js"></script>
-		<script src="bootstrap/js/bootstrap.min.js"></script>
-		<script src="js/jquery.easeScroll.js"></script>
-		<script src="sweetalert/dist/sweetalert.min.js"></script>
-		<script src="js/stisla.js"></script>
-	</body>
-</html>
+					</section>
+					<section id="about" class="profile-section">
+						<div class="container"><div class="row align-items-center">
+							<div class="col-12 col-md-5"><figure class="profile-picture"><img src="img/youzhang.png" alt="Portrait of Jomel Luna Mercado"></figure></div>
+							<div class="col-12 col-md-7"><div class="profile-content">
+								<p class="section-kicker">Get in touch</p>
+								<h2>Jomel Luna Mercado</h2>
+								<a class="contact-link" href="mailto:jomelmercado1@gmail.com"><i class="ion-email" aria-hidden="true"></i>jomelmercado1@gmail.com</a>
+								<a class="contact-link" href="tel:+639482533476"><i class="ion-android-contacts" aria-hidden="true"></i>0948-253-3476</a>
+								<a class="contact-link social-link" href="https://www.facebook.com/profile.php?id=61554401666605" aria-label="Visit Jomel on Facebook"><i class="ion-social-facebook" aria-hidden="true"></i>Facebook</a>
+								<footer class="about-note">This page shares personal information for professional purposes. Please do not use or distribute it without permission.</footer>
+							</div></div>
+						</div></div>
+					</section>
+				</main>
+				<script src="js/landing.js"></script>
+			</body>
+		</html>
